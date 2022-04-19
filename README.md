@@ -34,10 +34,16 @@ Check out [sample config file](https://github.com/Itz-fork/Mega.nz-Bot/blob/main
 
 ### With Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://itz-fork.github.io/Redirect-to-Heroku?src=Itz-fork/X-Bin-Patch)
+<details>
+<summary><b>🔗 Deploy to Heroku</b></summary>
+<br>
 
-> Notice ⚠️:
-> This (Main) repo doesn't contain the [Dockerfile](https://github.com/Itz-fork/X-Bin-Patch/blob/main/Dockerfile) which is needed to deploy on Heroku. Please refer the [Deployment](https://github.com/Iregullar/Mega.nz-Bot#deployment) guide in-order to deploy this bot Heroku.
+> Heroku has two vars[ HEROKU_API_KEY & HEROKU_APP_NAME ] for Updater to work. 
+> By setting those two vars you can get logs of your heroku app, set var, edit var, delete vars , check dyno usage and update bot. 
+> Those two vars are not Mandatory! You can leave them blank too. 
+    
+<h4>Click the button below to deploy on Heroku!</h4>    
+<p><a href="https://dashboard.heroku.com/new?template=https://github.com/Iregullar/Mega.nz-Bot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"/></a></p>
 
 ### With VPS/PC
 ---
